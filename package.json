@@ -1,0 +1,26 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babywhale/webpack-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babywhale/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/babywhale/webpack-demo#readme",
+  "devDependencies": {
+    "css-loader": "^0.26.4",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1"
+  }
+}
