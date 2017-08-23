@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            i am c
-        </title>
-        <meta charset="utf-8" />
-
-        <!-- inline形式引入脚本 -->
-        <script type="text/javascript">
-            /******/ (function(modules) { // webpackBootstrap
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -73,31 +63,16 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 7:
+/******/ ([
+/* 0 */
 /***/ (function(module, exports) {
 
-function mian () {
-
+function a () {
+    alert('a');
 }
 
 /***/ })
-
-/******/ });
-        </script>
-    </head>
-    <body>
-        
-            
-                <script type="text/javascript" src="script/c-bda01ebf552269b57a90.js"></script>
-            
-        
-            
-        
-
-    </body>
-</html>
+/******/ ]);

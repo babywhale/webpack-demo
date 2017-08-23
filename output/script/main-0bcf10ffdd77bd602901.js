@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            i am c
-        </title>
-        <meta charset="utf-8" />
-
-        <!-- inline形式引入脚本 -->
-        <script type="text/javascript">
-            /******/ (function(modules) { // webpackBootstrap
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -88,16 +78,3 @@ function mian () {
 /***/ })
 
 /******/ });
-        </script>
-    </head>
-    <body>
-        
-            
-                <script type="text/javascript" src="script/c-bda01ebf552269b57a90.js"></script>
-            
-        
-            
-        
-
-    </body>
-</html>

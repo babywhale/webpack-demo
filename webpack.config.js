@@ -9,7 +9,7 @@ module.exports = {
     },
     output: {
         path: './output',
-        publicPath: 'https://cdn.com/',
+        // publicPath: './output',
         filename: 'script/[name]-[chunkhash].js'
     },
     plugins: [
@@ -35,5 +35,11 @@ module.exports = {
             chunks: ['main', 'c'],
             inject: false
         })
-    ]
+    ],
+    devServer: {
+        historyApiFallback: true,
+        hot: true,
+        inline: true,
+        progress: true
+    }
 };
